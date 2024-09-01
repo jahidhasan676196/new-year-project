@@ -161,3 +161,79 @@
     width: 140px;
     height: 140px;
   }
+
+
+
+  /* portfolio section related style */
+  .portfolio-section{
+    margin-top: 120px;
+  }
+  .portfolio-section h5{
+    color: #F00;
+    font-size: 24px;
+  }
+  .portfolio-section h2{
+    color: #070211;
+    font-size: 48px;
+  }
+  .portfolio-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+  }
+  .portfolio-section div{
+    display: flex;
+    margin: 24px 0px;
+    gap: 24px;
+  }
+
+
+  /* subcribe section related style */
+  .subscribe-section{
+    border-radius: 16px;
+    width: 1320px;
+    height: 616px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    text-align: center;
+  }
+  .subscribe-section img{
+    padding-top: 80px;
+  }
+  .subscribe-section h3{
+    color: #070211;
+    font-size: 48px;
+  }
+  .subscribe-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding: 0px 212px;
+  }
+  .subscribe-div{
+    display: flex;
+    gap: 0px;
+    display: inline;
+    padding-bottom: 80px;
+   
+  }
+  .subscribe-div input{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+    border: none;
+    padding-left: 30px;
+  }
+  .subscribe-div button{
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 30px;
+    width: 210px;
+    height: 72px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+  }
